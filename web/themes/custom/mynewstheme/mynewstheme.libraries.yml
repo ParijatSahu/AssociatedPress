@@ -1,0 +1,11 @@
+base:
+  version: 1.x
+  css:
+    theme:
+      css/util.css: {}
+      css/util.min.css: {}
+      css/main.css: {}
+      css/mystyles.css: {}
+  js:
+    # js/jquery-3.2.1.min.js: {}
+    js/main.js: {}

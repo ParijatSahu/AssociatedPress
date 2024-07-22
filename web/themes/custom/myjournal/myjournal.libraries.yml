@@ -1,0 +1,22 @@
+base:
+  version: 1.x
+  css:
+    theme:
+      # vendor/bootstrap/css/bootstrap.min.css: {type: external}
+      fonts/fontawesome-5.0.8/css/fontawesome-all.min.css: {type: external}
+      fonts/iconic/css/material-design-iconic-font.min.css: {type: external}
+      https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css: { type: external }
+      https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css: { type: external}
+      css/main.css: {}
+      css/util.css: {}
+      css/util.min.css: {}
+      css/style.css: {}
+  js:
+    js/main.js: {}
+    js/global.js: {}
+    https://code.jquery.com/jquery-3.6.0.min.js: { type: external, minified: true }
+    https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js: { type: external, minified: true }
+    https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js: { type: external, minified: true }
+  
+  dependencies:
+    - core/jquery
